@@ -1,120 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <!-- Main start-->
-    <div class="main">
-      <!-- Home section start-->
-      <section class="Home-section align-items-center">
+    <section class="container">
+      <div class="half-width">
+        <h1>
+          Welcome to <span class="purple-color">Adi Pratama</span> portfolio
+        </h1>
+        <h3>My short story</h3>
+        <p>
+          namaku adalah adi pratama putra, aku lahir di Semarang pada tanggal 21
+          april 2007. Aku sekarang sedang bersekolah di smkn 10 semarang,alasan
+          aku menjadi murid di smkn 10,di jurusan rekaya perangkat lunak karena
+          memang sudah suka dari kecil.
+        </p>
+      </div>
+
+      <div class="half-width">
+        <img class="side-img" src="img.jpg" alt="" />
+      </div>
+    </section>
+    <section class="container">
+      <div class="half-width">
+        <img class="side-img" src="working.png" />
+      </div>
+      <div class="half-width">
+        <h2>BIG DREAM</h2>
+        <h4>Become a web developer</h4>
+        <p>
+          Saya sudah mempelajari dasar HTML dan CSS. Saya dapat membangun situs
+          web sederhana apa pun.
+        </p>
+        <h4>Become a desaigner</h4>
+        <p>
+          Saya sudah mempelajari dasar HTML dan CSS. Saya dapat membangun situs
+          web sederhana apa pun.
+        </p>
+      </div>
+    </section>
+
+    <h1>Hard Skill</h1>
+
+    <div class="card-skills">
+      <div class="card-skill">
+        <img
+          src="https://cdn.icon-icons.com/icons2/2107/PNG/96/file_type_html_icon_130541.png"
+          alt="HTML">
+      </div>
+      <div class="card-skill">
+        <img
+          src="https://cdn.icon-icons.com/icons2/2107/PNG/96/file_type_css_icon_130661.png"
+          alt="CSS">
+      </div>
+    <h1>Soft Skill</h1>
+    <div class="column-container">
+      <div class="card1">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="home-text">
-              <p>Hello, I'm</p>
-              <h1>Adi Pratama</h1>
-              <h2>Student SMKN 10 Web Developer</h2>
-              <a href="#" class="btn"> about me</a>
-              <a href="#" class="btn"> portfolio</a>
-            </div>
-            <div class="home-img">
-              <div class="img-box">
-                <img src="img.jpg" alt="" />
-              </div>
-            </div>
-          </div>
+          <h4>Communication</h4>
         </div>
-      </section>
-      <!-- Home section end-->
-
-      <!-- About section start-->
-      <section class="about-section sec-padding">
+      </div>
+      <div class="card1">
         <div class="container">
-          <div class="row">
-            <div class="section-title">
-              <h2>about me</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="about-img">
-              <div class="img-box">
-                <img src="" alt="" />
-              </div>
-            </div>
-            <div class="about-text">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-                dolorum dolor similique fugiat quo velit nulla? Error magni
-                repellat vel perspiciatis reprehenderit cupiditate atque facilis
-                numquam autem, possimus, distinctio, culpa aut sint consequuntur
-                accusamus dicta repudiandae quas doloribus harum aperiam fugiat.
-                Nulla odio aspernatur adipisci saepe repellat amet iste autem.
-              </p>
-              <h3>Skills</h3>
-              <div class="skills">
-                <div class="skill-item">html</div>
-                <div class="skill-item">css</div>
-              </div>
-
-              <div class="about-tabs">
-                <button
-                  type="button"
-                  class="tab-item active"
-                  data-target="#education"
-                >
-                  education
-                </button>
-                <button
-                  type="button"
-                  class="tab-item"
-                  data-target="#experience"
-                >
-                  experience
-                </button>
-              </div>
-
-              <!-- Education start-->
-              <div class="tab-content" id="education">
-                <div class="timeline">
-                  <div class="timeline-item">
-                    <span class="date">2014 - 2019</span>
-                    <h4>sekolah dasar - <span>sd muhammadiyah 17</span></h4>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Vero, libero et exercitationem necessitatibus nulla cumque
-                      veniam amet soluta consectetur eius?
-                    </p>
-                    <span class="date">2020 - 2022</span>
-                    <h4>
-                      sekolah menengah pertama - <span>smpn 15 semarang</span>
-                    </h4>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Vero, libero et exercitationem necessitatibus nulla cumque
-                      veniam amet soluta consectetur eius?
-                    </p>
-                    <span class="date">2022 - 2025</span>
-                    <h4>
-                      sekolah menengah kejuruan - <span>smkn 10 semarang</span>
-                    </h4>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Vero, libero et exercitationem necessitatibus nulla cumque
-                      veniam amet soluta consectetur eius?
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- Education end-->
-            </div>
-          </div>
+          <h4>Public Speaking</h4>
         </div>
-      </section>
-      <!-- About section end-->
+      </div>
+      <div class="card1">
+        <div class="container">
+          <h4>Leadership</h4>
+        </div>
+      </div>
     </div>
-    <!-- Main end-->
+
+    <section class="container educations">
+      <h2>Eduction</h2>
+      <div class="education-item">
+        <h2>My Journey school</h2>
+        <h3>Sekolah Dasar</h3>
+        <p class="purple-color">2014 - 2019 | sd muhammadiyah 17</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, sequi
+          explicabo quidem enim perspiciatis quam expedita quasi corrupti autem
+          cupiditate!
+        </p>
+      </div>
+      <div class="education-item">
+        <h3>Sekolah menengah pertama</h3>
+        <p class="purple-color">2019 - 2022 | smpn 15 semarang</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+          earum incidunt laboriosam soluta ipsam sit possimus quos at corrupti
+          sapiente!
+        </p>
+      </div>
+      <div class="education-item">
+        <h3>Sekolah menengah kejuruan</h3>
+        <p class="purple-color">2022 - 2025 | smkn 10 semarang</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus et exercitationem, animi ratione impedit dolorum eos
+          voluptate. Perspiciatis, necessitatibus eaque.
+        </p>
+      </div>
+    </section>
+    <footer>
+      <p>© Adi pratama 2023, a Programming Hero initiative.</p>
+    </footer>
   </body>
 </html>
